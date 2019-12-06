@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/mobile_navigation"
+    app:startDestination="@+id/nav_home">
+
+    <fragment
+        android:id="@+id/nav_home"
+        android:name="com.example.sqlite.ui.home.HomeFragment"
+        android:label="@string/menu_home"
+        tools:layout="@layout/fragment_home" />
+
+    <fragment
+        android:id="@+id/nav_stock"
+        android:name="com.example.sqlite.ui.stock.StockFragment"
+        android:label="@string/addstock"
+        tools:layout="@layout/fragment_stock" />
+
+    <fragment
+        android:id="@+id/todayssales"
+        android:name="com.example.sqlite.ui.dailysalesreports.DailySalesReports"
+        android:label="@string/todaysales"
+        tools:layout="@layout/fragment_todaysales" />
+
+    <fragment
+        android:id="@+id/dailystock"
+        android:name="com.example.sqlite.ui.dailystock.DailyStockReports"
+        android:label="@string/dailystock"
+        tools:layout="@layout/daily_stock" />
+
+    <fragment
+        android:id="@+id/nav_expenses"
+        android:name="com.example.sqlite.ui.expenses.AddExpenses"
+        android:label="@string/menu_expenses"
+        tools:layout="@layout/fragment_addexpenses" />
+
+    <fragment
+        android:id="@+id/nav_addsales"
+        android:name="com.example.sqlite.ui.addsales.AddSales"
+        android:label="@string/addsales"
+        tools:layout="@layout/fragment_addsales" />
+
+    <fragment
+        android:id="@+id/nav_allsales"
+        android:name="com.example.sqlite.ui.allsales.AllSalesReports"
+        android:label="@string/allsales"
+        tools:layout="@layout/all_sales_reports_fragment" />
+
+    <fragment
+        android:id="@+id/todaysexpenses"
+        android:name="com.example.sqlite.ui.dailyexpenses.DailyExpenses"
+        android:label="@string/dailyexpenses"
+        tools:layout="@layout/daily_expenses_fragment" />
+
+    <fragment
+        android:id="@+id/allstock"
+        android:name="com.example.sqlite.ui.allstock.AllStock"
+        android:label="@string/allstock"
+        tools:layout="@layout/all_stock_fragment" />
+
+    <fragment
+        android:id="@+id/allexpenses"
+        android:name="com.example.sqlite.ui.allexpenses.AllExpenses"
+        android:label="@string/allexpenses"
+        tools:layout="@layout/all_expenses_fragment" />
+    <fragment
+        android:id="@+id/nav_dailyreport"
+        android:name="com.example.sqlite.ui.dailyreports.DailyReports"
+        android:label="@string/dailyreports"
+        tools:layout="@layout/daily_reports_fragment"
+        />
+
+    <fragment
+        android:id="@+id/nav_monthlyreport"
+        android:name="com.example.sqlite.ui.monthlyreports.MonthlyReports"
+        android:label="@string/monthlyreports"
+        tools:layout="@layout/monthly_reports_fragment"
+        />
+    <fragment
+        android:id="@+id/searchreports"
+        android:name="com.example.sqlite.ui.searchreports.SearchReports"
+        android:label="@string/searchreports"
+        tools:layout="@layout/search_reports_fragment"
+        />
+
+</navigation>

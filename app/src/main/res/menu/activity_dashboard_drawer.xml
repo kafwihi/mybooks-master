@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_home"
+            android:title="@string/menu_home" />
+        <item
+            android:id="@+id/nav_stock"
+            android:title="@string/addstock"/>
+        <item
+            android:id="@+id/nav_expenses"
+            android:title="@string/menu_expenses" />
+        <item
+            android:id="@+id/nav_addsales"
+            android:title="@string/addsales"/>
+        <item
+            android:title="@string/summaryreports">
+            <menu>
+                <item
+                    android:id="@+id/nav_dailyreport"
+                    android:title="@string/dailyreports"/>
+                <item
+                    android:id="@+id/nav_monthlyreport"
+                    android:title="@string/monthlyreports"/>
+                <item
+                    android:id="@+id/searchreports"
+                    android:title="@string/searchreports"/>
+            </menu>
+        </item>
+
+        <item
+            android:title="@string/menu_expensesreports">
+            <menu>
+                <item
+                    android:id="@+id/todaysexpenses"
+                    android:title="@string/dailyexpenses"/>
+                <item
+                    android:id="@+id/allexpenses"
+                    android:title="@string/allexpenses"/>
+            </menu>
+        </item>
+        <item
+            android:title="@string/menu_salesreports">
+            <menu>
+                <item
+                    android:id="@+id/todayssales"
+                    android:title="@string/todaysales"/>
+                <item
+                    android:id="@+id/nav_allsales"
+                    android:title="@string/allsales"/>
+            </menu>
+        </item>
+        <item
+            android:title="@string/stockreports">
+            <menu>
+                <item
+                    android:id="@+id/dailystock"
+                    android:title="@string/dailystock"/>
+                <item
+                    android:id="@+id/allstock"
+                    android:title="@string/allstock"/>
+            </menu>
+        </item>
+    </group>
+
+</menu>

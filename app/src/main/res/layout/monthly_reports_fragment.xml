@@ -1,0 +1,141 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="horizontal"
+    android:padding="10dp"
+    tools:context=".ui.monthlyreports.MonthlyReports">
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:layout_marginRight="10dp"
+        android:layout_marginEnd="10dp"
+        android:textAlignment="center">
+
+        <com.google.android.material.textview.MaterialTextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/date"
+            android:textStyle="bold"
+            android:textColor="@color/submitbtn"
+            android:textSize="15dp"
+            android:layout_marginBottom="30dp"/>
+
+        <com.google.android.material.textview.MaterialTextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/monthlysales"
+            android:textStyle="bold"
+            android:textColor="@color/submitbtn"
+            android:textSize="15dp"
+            android:layout_marginBottom="30dp"/>
+
+        <com.google.android.material.textview.MaterialTextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/monthlystock"
+            android:textStyle="bold"
+            android:textColor="@color/submitbtn"
+            android:textSize="15dp"
+            android:layout_marginBottom="30dp"/>
+
+        <com.google.android.material.textview.MaterialTextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/monthlyexpenses"
+            android:textStyle="bold"
+            android:textColor="@color/submitbtn"
+            android:textSize="15dp"
+            android:layout_marginBottom="30dp"/>
+
+        <com.google.android.material.textview.MaterialTextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/salesanalysis"
+            android:textStyle="bold"
+            android:textColor="@color/submitbtn"
+            android:textSize="15dp"
+            android:layout_marginBottom="30dp"/>
+        <com.google.android.material.textview.MaterialTextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/stockanalysis"
+            android:textStyle="bold"
+            android:textColor="@color/submitbtn"
+            android:textSize="15dp"
+            android:layout_marginBottom="30dp"/>
+
+        <com.google.android.material.button.MaterialButton
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/download"
+            android:text="@string/generatepdf"
+            android:layout_marginBottom="15dp"/>
+
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:layout_marginRight="10dp"
+        android:layout_marginEnd="10dp"
+        android:textAlignment="center">
+
+        <com.google.android.material.textview.MaterialTextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/date"
+            android:textStyle="bold"
+            android:textColor="@color/colorPrimary"
+            android:textSize="15dp"
+            android:layout_marginBottom="30dp"/>
+
+        <com.google.android.material.textview.MaterialTextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/monthlysales"
+            android:textStyle="bold"
+            android:textColor="@color/colorPrimary"
+            android:textSize="15dp"
+            android:layout_marginBottom="30dp"/>
+
+        <com.google.android.material.textview.MaterialTextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/monthlystock"
+            android:textStyle="bold"
+            android:textColor="@color/colorPrimary"
+            android:textSize="15dp"
+            android:layout_marginBottom="30dp"/>
+
+        <com.google.android.material.textview.MaterialTextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/monthlyexpenses"
+            android:textStyle="bold"
+            android:textColor="@color/colorPrimary"
+            android:textSize="15dp"
+            android:layout_marginBottom="30dp"/>
+
+        <com.google.android.material.textview.MaterialTextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/salesanalysis"
+            android:textStyle="bold"
+            android:textColor="@color/colorPrimary"
+            android:textSize="15dp"
+            android:layout_marginBottom="30dp"/>
+        <com.google.android.material.textview.MaterialTextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/outcome"
+            android:textStyle="bold"
+            android:textColor="@color/colorPrimary"
+            android:textSize="15dp"
+            android:layout_marginBottom="30dp"/>
+    </LinearLayout>
+
+</LinearLayout>
